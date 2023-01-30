@@ -1,0 +1,130 @@
+/*Barra de navegación*/
+header{
+    width: 100%;
+    /*position: fixed;*/
+}
+
+nav{
+    background-color: rgba(122,165,210,255);}
+
+h5{
+    color: white;}
+
+.dropdown button{
+    /*padding-right: 750px;*/
+    padding-bottom: 7px;
+    position: static;}
+
+/*Dropdown barra de navegacion*/
+.dropdown {
+    padding-top: 6px;
+    display: inline-block;}
+
+.dropdown button{
+    border: none;
+    background-color: rgba(122,165,210,255);}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #65b9c6;}
+
+/*Cuerpo de la página*/
+.container-1{
+    padding-top: 30px;
+    box-sizing: border-box;
+    align-items: center;}
+
+.container-2{
+    padding-top: 30px;
+    padding-left: 256px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    align-items: center;}
+
+.container-3{
+    padding-top: 30px;
+    padding-left: 256px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;}
+
+/*Pie de página con formulario, rrss y mapa*/
+footer{
+    background-color: rgba(122,165,210,255);}
+.container-4{
+    overflow: hidden;
+    text-align: center;
+    align-items: center;}
+
+h2{
+    padding-top: 100px;
+    padding-right: 10px;
+    font-family: 'Abril Fatface', 'cursive';
+    font-family: 'Pacifico', 'cursive';}
+
+.container-4 h4{
+    padding-right: 10px;
+    font-family: 'Nanum Myeongjo', serif;}
+
+.container-4 button{
+    padding-top: 10px;
+    border: none;
+    text-decoration: none;}
+
+.map-responsive iframe{
+    height:100%;
+    width:100%;
+    position: absolute;}
+
+.container-5{
+    text-align: center;
+    align-items: center;}
+
+.container-5 form{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;}
+
+.container-5 legend{
+    font-family: 'Abril Fatface', 'cursive';
+    font-family: 'Pacifico', 'cursive';}
+
+.container-5 button{
+    background-color: #65b9c6;
+    border: none;}
+
+.container-5 a{
+    color: black;}
+
+.container-5 a{
+    text-decoration: none;}
+
+h6{
+    text-align: center;
+    text-decoration: none;}
+
+.links a{
+    padding-left: 645px;
+    text-decoration: none;
+    color: black;}
